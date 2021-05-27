@@ -5,7 +5,6 @@ togglemode.addEventListener('click', function() {
 });
 
 var darkmode = sessionStorage.getItem('darkmode');
-console.log(darkmode);
 
 if(darkmode === null) {
   if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -17,4 +16,3 @@ if(darkmode === "true") {
   togglemode.checked = true;
   document.body.classList.toggle('darkmode');
 }
-
