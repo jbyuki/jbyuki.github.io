@@ -14,5 +14,9 @@ if(darkmode === null) {
 
 if(darkmode === "true") {
   togglemode.checked = true;
-  document.body.classList.toggle('darkmode');
+  $("body").toggleClass('darkmode');
 }
+
+$(document).ready(function() {
+  $("body").removeClass('disable_transition');
+});

@@ -208,3 +208,8 @@ body.darkmode #lightmodetoggle
 {
   cursor: pointer;
 }
+
+.disable_transition
+{
+  transition: none !important;
+}
