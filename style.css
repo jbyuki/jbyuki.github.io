@@ -1,0 +1,47 @@
+pre { white-space: pre-wrap; font-family: monospace; color: #dcd7ba; background-color: #000000; }
+body { font-family: monospace; background-color: #ffffff; margin: 6em }
+* { font-size: 1.2em; }
+.PreProc { color: #ffa066; font-size: 1.8em; }
+.String { color: #ffa066; }
+.circular { 
+	border-radius: 50%; 
+}
+.bold-link 
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: inherit;
+}
+
+.email-link
+{
+	font-style: italic;
+	font-size: 0.7em;
+	color: inherit;
+}
+
+.title
+{
+	/*text-align: center;*/
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.go-back
+{
+	/*text-align: center;*/
+	font-size: 1.0em;
+	text-decoration: none;
+	color: inherit;
+}
+
+.minus-list
+{
+	list-style-type: square;
+	font-size: 1.0em;
+}
+
+.movie-poster
+{
+	text-align: center;
+}
