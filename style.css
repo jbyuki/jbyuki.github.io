@@ -1,5 +1,5 @@
 pre { white-space: pre-wrap; font-family: monospace; color: #dcd7ba; background-color: #000000; }
-body { font-family: monospace; background-color: #ffffff; margin: 6em }
+body { font-family: monospace; background-color: #000000; margin: 6em }
 * { font-size: 1.2em; }
 .PreProc { color: #ffa066; font-size: 1.8em; }
 .String { color: #ffa066; }
